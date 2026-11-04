@@ -1,0 +1,425 @@
+no.1
+public class Bintang1 {
+    public static void main(String[] args) {
+
+        for (int i = 0; i < 6; i++) {
+
+            for (int j = 0; j < 11 - i; j++) {
+                if (j < 6 - i || j >= 6 + i) {
+                    System.out.print("*");
+                } else {
+                    System.out.print(" ");
+                }
+            }
+
+            System.out.println();
+        }
+    }
+}
+no.2
+public class Bintang2 {
+    public static void main(String[] args) {
+
+        for (int i = 1; i <= 6; i++) {
+
+            for (int j = 1; j <= (2 * i - 1); j++) {
+                System.out.print("*");
+            }
+
+            System.out.println();
+        }
+    }
+}
+no.3
+public class Bintang3 {
+    public static void main(String[] args) {
+
+        for (int i = 1; i <= 5; i++) {
+            for (int j = 1; j <= i; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+
+        for (int i = 3; i >= 1; i--) {
+            for (int j = 1; j <= i; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+}
+no.4
+public class Bintang4 {
+    public static void main(String[] args) {
+
+        for (int i = 1; i <= 6; i++) {
+
+            for (int j = 1; j <= i; j++) {
+                System.out.print("*");
+            }
+
+            for (int j = 1; j <= (11 - (2 * i)); j++) {
+                System.out.print(" ");
+            }
+
+            for (int j = 1; j <= i; j++) {
+                System.out.print("*");
+            }
+
+            System.out.println();
+        }
+    }
+}
+no.5
+public class Bintang5 {
+    public static void main(String[] args) {
+
+        for (int i = 6; i >= 1; i--) {
+
+            for (int j = 1; j <= (2 * i - 1); j++) {
+                System.out.print("*");
+            }
+
+            System.out.println();
+        }
+    }
+}
+no.6
+public class Bintang6 {
+    public static void main(String[] args) {
+
+        for (int i = 1; i <= 6; i++) {
+
+            if (i <= 3) {
+                for (int j = 1; j <= i; j++) {
+                    System.out.print("*");
+                }
+            } else {
+                for (int j = 1; j <= i - 3; j++) {
+                    System.out.print("*");
+                }
+            }
+
+            System.out.println();
+        }
+    }
+}
+no.7
+public class Bintang7 {
+    public static void main(String[] args) {
+
+        for (int i = 5; i >= 1; i--) {
+
+            for (int j = 5; j > i; j--) {
+                System.out.print(" ");
+            }
+
+            for (int j = 1; j <= i; j++) {
+                System.out.print("*");
+            }
+
+            System.out.println();
+        }
+
+        for (int i = 2; i <= 5; i++) {
+
+            for (int j = 5; j > i; j--) {
+                System.out.print(" ");
+            }
+
+            for (int j = 1; j <= i; j++) {
+                System.out.print("*");
+            }
+
+            System.out.println();
+        }
+    }
+}
+no.8
+public class Bintang8 {
+    public static void main(String[] args) {
+
+        for (int i = 1; i <= 6; i++) {
+
+            if (i <= 5) {
+                System.out.print("0");
+
+                for (int j = 1; j <= 10; j++) {
+                    System.out.print("*");
+                }
+            } else {
+                for (int j = 1; j <= 11; j++) {
+                    System.out.print("0");
+                }
+            }
+
+            System.out.println();
+        }
+    }
+}
+no.9
+public class Bintang9 {
+    public static void main(String[] args) {
+
+        for (int i = 1; i <= 6; i++) {
+
+            if (i <= 5) {
+                for (int j = 1; j <= 10; j++) {
+                    System.out.print("*");
+                }
+
+                System.out.print("0");
+
+            } else {
+                for (int j = 1; j <= 11; j++) {
+                    System.out.print("0");
+                }
+            }
+
+            System.out.println();
+        }
+    }
+}
+no.10
+public class Bintang10 {
+    public static void main(String[] args) {
+
+        for (int i = 6; i >= 1; i--) {
+
+            for (int j = 1; j <= 6; j++) {
+                System.out.print(" ");
+            }
+
+            for (int j = 1; j <= i; j++) {
+                System.out.print("*");
+            }
+
+            System.out.println();
+        }
+
+        for (int i = 2; i <= 5; i++) {
+
+            for (int j = 1; j <= 6 - i; j++) {
+                System.out.print(" ");
+            }
+
+            for (int j = 1; j <= i; j++) {
+                System.out.print("*");
+            }
+
+            System.out.println();
+        }
+    }
+}
+no.11
+public class Bintang11 {
+    public static void main(String[] args) {
+
+        for (int i = 1; i <= 6; i++) {
+
+            if (i == 1) {
+                for (int j = 1; j <= 11; j++) {
+                    System.out.print("0");
+                }
+            } else {
+                System.out.print("0");
+
+                for (int j = 1; j <= 10; j++) {
+                    System.out.print("*");
+                }
+            }
+
+            System.out.println();
+        }
+    }
+}
+no.12
+public class Bintang12 {
+    public static void main(String[] args) {
+
+        for (int i = 1; i <= 7; i++) {
+
+            if (i == 1) {
+                for (int j = 1; j <= 11; j++) {
+                    System.out.print("0");
+                }
+            } else {
+                for (int j = 1; j <= 11; j++) {
+                    System.out.print("*");
+                }
+            }
+
+            System.out.println();
+        }
+    }
+}
+no.13
+public class Bintang13 {
+    public static void main(String[] args) {
+
+        for (int i = 1; i <= 6; i++) {
+
+            for (int j = 1; j <= i; j++) {
+                System.out.print("0");
+            }
+
+            for (int j = 1; j <= 7 - i; j++) {
+                System.out.print("*");
+            }
+
+            System.out.println();
+        }
+    }
+}
+no.14
+public class Bintang14 {
+    public static void main(String[] args) {
+
+        for (int i = 1; i <= 6; i++) {
+
+            for (int j = 1; j <= i; j++) {
+                System.out.print("*");
+            }
+
+            for (int j = 1; j <= 7 - i; j++) {
+                System.out.print("0");
+            }
+
+            System.out.println();
+        }
+    }
+}
+no.15
+public class Bintang15 {
+    public static void main(String[] args) {
+
+        for (int i = 1; i <= 6; i++) {
+
+            for (int j = 1; j <= 7 - i; j++) {
+                System.out.print("0");
+            }
+
+            for (int j = 1; j <= i; j++) {
+                System.out.print("*");
+            }
+
+            System.out.println();
+        }
+    }
+}
+no.16
+public class Bintang16 {
+    public static void main(String[] args) {
+
+        for (int i = 1; i <= 6; i++) {
+
+            for (int j = 1; j <= 7 - i; j++) {
+                System.out.print("0");
+            }
+
+            for (int j = 1; j <= i; j++) {
+                System.out.print("*");
+            }
+
+            System.out.println();
+        }
+    }
+}
+no.17
+public class Bintang17 {
+    public static void main(String[] args) {
+
+        for (int i = 1; i <= 6; i++) {
+
+            for (int j = 1; j <= 7 - i; j++) {
+                System.out.print("0");
+            }
+
+            System.out.print("*");
+
+            for (int j = 1; j < i; j++) {
+                System.out.print("0");
+            }
+
+            System.out.println();
+        }
+    }
+}
+no.18
+public class Bintang18 {
+    public static void main(String[] args) {
+
+        for (int i = 1; i <= 6; i++) {
+
+            for (int j = 1; j < i; j++) {
+                System.out.print("0");
+            }
+
+            System.out.print("*");
+
+            for (int j = 1; j <= 7 - i; j++) {
+                System.out.print("0");
+            }
+
+            System.out.println();
+        }
+    }
+}
+no.19
+public class Bintang19 {
+    public static void main(String[] args) {
+
+        for (int i = 1; i <= 6; i++) {
+
+            if (i == 1 || i == 6) {
+
+                for (int j = 1; j <= 7; j++) {
+                    System.out.print("0");
+                }
+
+            } else {
+
+                System.out.print("0");
+
+                for (int j = 1; j <= 5; j++) {
+                    System.out.print("*");
+                }
+
+                System.out.print("0");
+            }
+
+            System.out.println();
+        }
+    }
+}
+no.20
+public class Bintang20 {
+    public static void main(String[] args) {
+
+        for (int i = 1; i <= 6; i++) {
+
+            if (i == 1 || i == 4) {
+
+                for (int j = 1; j <= 7; j++) {
+                    System.out.print("0");
+                }
+
+            } else if (i == 2 || i == 5) {
+
+                for (int j = 1; j <= 7; j++) {
+                    System.out.print("*");
+                }
+
+            } else {
+
+                for (int j = 1; j <= 7; j++) {
+                    System.out.print("=");
+                }
+            }
+
+            System.out.println();
+        }
+    }
+}
+selesai maseh
